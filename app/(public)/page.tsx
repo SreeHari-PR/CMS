@@ -111,19 +111,13 @@ export default function LandingPage() {
               ref={heroImage}
               className="relative w-full rounded-3xl overflow-hidden"
             >
-              {content?.hero?.image ? (
-                <img
-                  src={content?.hero?.image || "/hero-bg.png"}
-                  alt="Hero"
-                  className="w-full h-auto object-contain"
-                  onError={(e) => (e.currentTarget.src = "/hero-bg.png")}
-                />
+              <img
+                src={content?.hero?.image || "/hero-bg.png"}
+                alt="Hero"
+                className="w-full h-auto object-contain"
+                onError={(e) => (e.currentTarget.src = "/hero-bg.png")}
+              />
 
-              ) : (
-                <div className="flex items-center justify-center h-100 text-muted-foreground">
-                  No image
-                </div>
-              )}
             </div>
           </div>
 
