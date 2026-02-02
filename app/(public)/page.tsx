@@ -142,9 +142,9 @@ export default function LandingPage() {
           {/* Stats */}
           <div className="flex items-center justify-center mb-6">
             <div className="flex items-center">
-              <img src="/avatar1.JPG" alt="User" className="w-8 h-8 rounded-full border-2 border-white -mr-2" />
-              <img src="/avatar2.JPG" alt="User" className="w-8 h-8 rounded-full border-2 border-white -mr-2" />
-              <img src="/avatar3.JPG" alt="User" className="w-8 h-8 rounded-full border-2 border-white" />
+              <img src="/avatar1.jpg" alt="User" className="w-8 h-8 rounded-full border-2 border-white -mr-2" />
+              <img src="/avatar2.jpg" alt="User" className="w-8 h-8 rounded-full border-2 border-white -mr-2" />
+              <img src="/avatar3.jpg" alt="User" className="w-8 h-8 rounded-full border-2 border-white" />
               <span className="text-sm font-medium ml-3">59,182 Happy Users</span>
             </div>
           </div>
